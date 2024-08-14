@@ -1,4 +1,4 @@
-FROM node:22.5.0-bookworm-slim
+FROM debian:buster-slim
 
 COPY graphserver.js .
 COPY package.json .
