@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM node:hydrogen-buster-slim
 
 COPY graphserver.js .
 COPY package.json .
