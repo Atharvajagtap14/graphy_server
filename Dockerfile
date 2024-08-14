@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster-slim
+FROM node:22.5.0-bookworm-slim
 
 COPY graphserver.js .
 COPY package.json .
